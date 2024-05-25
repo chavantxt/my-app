@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700');
+
+body{
+
+    margin :0;
+    
+    font-size: 25px;
+}
+
+.container{
+    width:80%;
+    margin:0 auto;
+}
+
+header{
+    background-color: #4e0b56;
+    padding: 1em 0;
+
+    a{
+        color: aliceblue;
+        text-decoration: none;
+    
+    }
+
+    a.logo{
+
+        font-weight: bold;
+    }
+    nav{
+        float: right;
+
+        ul{
+            list-style-type: none;
+            margin: 0;
+            display: flex;
+
+            li a{
+                padding: 1em;
+
+                
+            }
+        }
+    }
+
+}
+
